@@ -24,6 +24,9 @@ export default {
     title: SITE_INFO.sitename || process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
+      { innerHTML:
+       '<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>'},
+
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
