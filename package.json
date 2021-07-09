@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
+  "name": "alw-digital-test",
   "version": "2.1.0",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <sven@svenparker.com> (https://svenparker.com)",
+  "description": "ALW digital testing site",
+  "author": "Alex Wright <alex@alex-wright.co.uk> (https://alex-wright.co.uk)",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/knogobert/ntn-boilerplate#readme"
+    "url": "https://github.com/awseo/ntn-boilerplate"
   },
   "license": "MIT",
   "dependencies": {
