@@ -1,5 +1,8 @@
 <template>
-  <main>
+<head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<main>
     <section class="self-center flex flex-col flex-1 items-center justify-center">
       <h1 class="title text-center">Nuxt — Tailwind — Netlify CMS</h1>
       <h2 class="subtitle text-center">Boilerplate</h2>
