@@ -21,7 +21,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: SITE_INFO.sitename || process.env.npm_package_name || '',
+    title: SITE_INFO.seoTitle || process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
       { innerHTML:
@@ -31,7 +31,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
+        content: SITE_INFO.metaDescription || process.env.npm_package_description || ''
       }
     ],
     link: [
