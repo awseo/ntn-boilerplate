@@ -21,17 +21,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: SITE_INFO.seoTitle || process.env.npm_package_name || '',
+    title: SITE_INFO.sitename || process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
-      { innerHTML:
-       '<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>'},
-
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: SITE_INFO.metaDescription || process.env.npm_package_description || ''
+        content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
       }
     ],
     link: [
@@ -150,7 +147,7 @@ export default {
     },
     manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },
     meta: {
-      name: SITE_INFO.sitename || process.env.npm_package_name || '',
+      name: SITE_INFO.seoTitle || process.env.npm_package_name || '',
       lang: process.env.lang,
       ogHost: process.env.URL,
       ogImage: '/preview.jpg'
