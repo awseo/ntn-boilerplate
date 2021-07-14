@@ -1,4 +1,4 @@
-site_url: 
+site_url: https://www.alwdigital.com
 logo_url: https://www.alwdigital.com/img/LogoMakr_3sFxFF.png
 
 publish_mode: editorial_workflow
@@ -48,12 +48,12 @@ collections:
     # editor:
     #   preview: true
     fields:
+      - { label: 'SEO title', name: 'seoTitle', widget: 'string', required: false }
+      - { label: 'Meta description', name: 'metaDescription', widget: 'string', required: false }
       - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: "YYYY-MM-DD", time_format: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-      - { label: 'SEO title', name: 'seoTitle', widget: 'string', required: true }
-      - { label: 'Meta description', name: 'metaDescription', widget: 'string', required: true }
 - name: 'projects'
     label: 'Projects'
     label_singular: 'Project'
@@ -74,8 +74,6 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Cover Image', name: 'cover', widget: 'image', required: false, allow_multiple: false }
       - { label: 'Content', name: 'body', widget: 'markdown', required: false }
-      - { label: 'SEO title', name: 'seoTitle', widget: 'string', required: true }
-      - { label: 'Meta description', name: 'metaDescription', widget: 'string', required: true }   
       - {
           label: 'Gallery',
           name: 'gallery',
