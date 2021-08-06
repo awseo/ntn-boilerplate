@@ -48,8 +48,6 @@ collections:
     # editor:
     #   preview: true
     fields:
-      - { label: 'SEO title', name: 'seoTitle', widget: 'string', required: false }
-      - { label: 'Meta description', name: 'metaDescription', widget: 'string', required: false }
       - { label: 'Created Date', name: 'createdAt', widget: 'datetime', date_format: "YYYY-MM-DD", time_format: false }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
