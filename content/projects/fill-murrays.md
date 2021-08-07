@@ -3,7 +3,7 @@ category: animals
 title: "Headless SEO: Optimising Next Gen Sites - brightonSEO July 2021"
 description: Download the slides for my July 2021 brightonSEO talk on optimising
   headless sites
-cover: https://www.fillmurray.com/g/400/200
+cover: /img/headlessseo.png
 gallery: []
 ---
 I had the pleasure of speaking at July 2021's instalment of brightonSEO. My talk focused on getting to grips with headless websites and, more specifically, the key things that we need to consider as SEOs when moving to a headless site. 
