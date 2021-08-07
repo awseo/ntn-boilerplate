@@ -1,13 +1,17 @@
 ---
 category: animals
-title: Fill Murrays
-description: Yet another placeholding project, but with Bills
+title: "Headless SEO: Optimising Next Gen Sites - brightonSEO July 2021"
+description: Download the slides for my July 2021 brightonSEO talk on optimising
+  headless sites
 cover: https://www.fillmurray.com/g/400/200
-gallery: ['https://www.fillmurray.com/g/800/400', 'https://www.fillmurray.com/600/600']
+gallery: []
 ---
+I had the pleasure of speaking at July 2021's instalment of brightonSEO. My talk focused on getting to grips with headless websites and, more specifically, the key things that we need to consider as SEOs when moving to a headless site. 
 
-It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.
+In the talk, I covered: 
 
-If you are in local development-mode (`npm run dev`) you can double-click here to edit this page quickly.
+* What headless websites are (and how they differ from traditional/monolithic sites)
+* The benefits of headless websites
+* Things to consider when moving over to a headless site
 
-Below are some Gallery photos that have been added to this Project.
+If you want to grab a copy of the slides, you can do so [here](https://www.slideshare.net/AlexWright84/headless-seo-optimising-next-gen-sites-brightonseo-2021).
